@@ -10,3 +10,5 @@ sentry-sdk==1.31.0  # https://github.com/getsentry/sentry-python
 # ------------------------------------------------------------------------------
 django-storages[s3]==1.14.1  # https://github.com/jschneier/django-storages
 django-anymail[amazon-ses]==10.1  # https://github.com/anymail/django-anymail
+django>=4.2.27 # not directly required, pinned by Snyk to avoid a vulnerability
+sqlparse>=0.5.4 # not directly required, pinned by Snyk to avoid a vulnerability
